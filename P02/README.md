@@ -23,17 +23,17 @@ Iz Postmana poslati sledeće GET zahteve:
 
  * JSON Serijalizacija sa ugnježdavanjem
    * Podaci o jednom studentu, sa ugnježdenim ocenama i predmetima: 
-     http://localhost:4567/api/studenti/E1234?format=json1
+     http://localhost:8080/api/studenti/E1234?format=json1
    * Podaci o svim studentima, sa ugnježdenim ocenama i predmetima: 
-     http://localhost:4567/api/studenti?format=json1
+     http://localhost:8080/api/studenti?format=json1
    * Podaci o jednoj oceni, sa ugnježdenim predmetom i studentom
-     http://localhost:4567/api/ocene/1?format=json1
+     http://localhost:8080/api/ocene/1?format=json1
 
   * JSON Serijalizacija sa referenciranjem
     * Podaci o oceni, sa referencama na predmet i studenta
-      http://localhost:4567/api/ocene/1?format=json2
+      http://localhost:8080/api/ocene/1?format=json2
     * Podaci o svim ocenama, sa referencama na predmet i studenta
-      http://localhost:4567/api/ocene?format=json2
+      http://localhost:8080/api/ocene?format=json2
 
 ## primeri serijalizacijaProto (server), serijalizacijaJavaProto (klijent) i serijalizacijaPythonProto (klijent)
 
